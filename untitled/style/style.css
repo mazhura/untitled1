@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+    background-color: #ffc100;
+    border: 15px dashed #303030;
+    text-align: center;
+}
+#logo{
+    height: 10%;
+    width: 10%;
+    vertical-align: inherit;
+
+}
+#text-header{
+    display:inline-block;
+    vertical-align: top;
+    padding-top: 30px;
+    font-size: 10vh;
+}
+.main{
+   background: #303030;
+    height: 76vh;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.form{
+    text-align: center;
+    background: #ffc100;
+    margin-top: 40px;
+    display: inline-block;
+    border-radius: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.input{
+    font-size: 5vh;
+    margin-bottom: 4vh;
+
+}
+
+.ready{
+    text-align: center;
+    background: #ffc100;
+    margin: 40px;
+    padding: 30px;
+    display: inline-block;
+    border-radius: 10px;
+}
+#name,#route,#route1,#number,#submit{
+    font-size: 4vh;
+    height: 5vh;
+    width: 30vh;
+    border-radius: 5px;
+}

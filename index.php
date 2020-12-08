@@ -68,7 +68,7 @@
     <!--Если отправлено-->
     <?php
     $ready=NULL;
-    require_once __DIR__.'/bot.php';
+    require_once __DIR__ . '/bot.php';
 
     if (!empty($_POST)){
         $ready=true;
@@ -88,7 +88,7 @@
             ]);
 
 
-            echo '<p class="ready input">Заявка оформлена<br>Ожидайте такси<br>в точке старта<br>'.$_POST['route'].'g</p>';
+            echo '<p class="ready input">Заявка оформлена<br>Ожидайте такси<br>в точке старта<br>'.$_POST['route'].'</p>';
         }
 
     }?>

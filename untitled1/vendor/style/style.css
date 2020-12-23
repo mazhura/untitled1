@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.button-register{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 3px;
+    padding: 5px;
+    height: 40px;
+    width: 130px;
+    font-size: 1vw;
+    text-align: center;
+    background-color: darkorange;
+    border: 1px solid black;
+}
+.header{
+    background-color: rebeccapurple;
+    padding: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: saddlebrown;
+    position: fixed;
+    bottom: 0;
+    font-size: 30px;
+}
+
+.form-register{
+    display: flex;
+    flex-flow: column;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid brown;
+}
+input{
+    height: 30px;
+}
+
+.data-info{
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 15vw;
+}
